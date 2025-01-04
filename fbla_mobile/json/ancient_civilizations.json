@@ -1,5 +1,4 @@
-{
-    "civialization_list": [
+[
         {
             "key": "meso",
             "name": "Mesopotamia",
@@ -36,4 +35,3 @@
             "cool_pic": "http://wwww.mypicture.com/"
         }
     ]
-}
