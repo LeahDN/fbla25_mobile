@@ -15,3 +15,6 @@ https://snack.expo.dev/
 Slide Show with goals, MVP, and wireframe
 https://docs.google.com/presentation/d/1re5rLOJIyRFhUZCR9DV4YmB2akE4nwIs5IIqS_J5qlk/edit#slide=id.g31b1764efa9_2_0
 
+
+This is the json_file branch, which has the json file attached
+
