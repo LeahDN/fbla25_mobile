@@ -3,35 +3,35 @@
             "key": "meso",
             "name": "Mesopotamia",
             "start_year": "3500 BCE",
-            "info": "info text here",
-            "cool_pic": "http://wwww.mypicture.com/"
+            "info": "info on Mesopotamia here",
+            "cool_pic": "https://www.worldhistory.org/img/c/p/1600x900/197.jpg"
         },
         {
             "key": "egpt",
             "name": "Ancient Egypt",
             "start_year": "3150 BCE",
-            "info": "info text here",
+            "info": "info on Ancient Eqypt here",
             "cool_pic": "http://wwww.mypicture.com/"
         },
         {
             "key": "indu",
             "name": "Indus Valley Civilization",
             "start_year": "2600 BCE",
-            "info": "info text here",
+            "info": "info on the Indus Valley Civilization here",
             "cool_pic": "http://wwww.mypicture.com/"
         },
         {
             "key": "xiad",
             "name": "Ancient China (Xia Dynasty)",
             "start_year": "2000 BCE",
-            "info": "info text here",
+            "info": "info on Ancient China here",
             "cool_pic": "http://wwww.mypicture.com/"
         },
         {
             "key": "mino",
             "name": "Minoan Civilization",
             "start_year": "2700 BCE",
-            "info": "info text here",
+            "info": "info on the Minoan Civilization here",
             "cool_pic": "http://wwww.mypicture.com/"
         }
     ]
