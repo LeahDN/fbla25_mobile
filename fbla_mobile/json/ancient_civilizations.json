@@ -1,0 +1,37 @@
+[
+        {
+            "key": "meso",
+            "name": "Mesopotamia",
+            "start_year": "3500 BCE",
+            "info": "info text here",
+            "cool_pic": "http://wwww.mypicture.com/"
+        },
+        {
+            "key": "egpt",
+            "name": "Ancient Egypt",
+            "start_year": "3150 BCE",
+            "info": "info text here",
+            "cool_pic": "http://wwww.mypicture.com/"
+        },
+        {
+            "key": "indus",
+            "name": "Indus Valley Civilization",
+            "start_year": "2600 BCE",
+            "info": "info text here",
+            "cool_pic": "http://wwww.mypicture.com/"
+        },
+        {
+            "key": "xiad",
+            "name": "Ancient China (Xia Dynasty)",
+            "start_year": "2000 BCE",
+            "info": "info text here",
+            "cool_pic": "http://wwww.mypicture.com/"
+        },
+        {
+            "key": "mino",
+            "name": "Minoan Civilization",
+            "start_year": "2700 BCE",
+            "info": "info text here",
+            "cool_pic": "http://wwww.mypicture.com/"
+        }
+    ]
