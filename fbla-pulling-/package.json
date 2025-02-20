@@ -1,5 +1,6 @@
 {
-  "main": "expo/AppEntry.js",
+  "license": "0BSD",
+  "main": "index.js",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -7,11 +8,11 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "~51.0.28",
-    "expo-status-bar": "~1.12.1",
-    "react": "18.2.0",
-    "react-native": "0.74.5",
-    "@expo/vector-icons": "^14.0.3",
+    "expo": "~52.0.31",
+    "expo-status-bar": "~2.0.1",
+    "react": "18.3.1",
+    "react-native": "0.76.7",
+    "@expo/vector-icons": "^14.0.2",
     "react-native-paper": "4.9.2"
   },
   "devDependencies": {
