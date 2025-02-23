@@ -1,0 +1,72 @@
+// App.js
+import React, { useState } from 'react';
+import { View, Text, TextInput, Button, StyleSheet } from 'react-native';
+
+const App = () => {
+    const [signedIn, setSignedIn] = useState(false);
+    const [username, setUsername] = useState('');
+    const [password, setPassword] = useState('');
+
+    const handleSignIn = () => {
+        // Add your sign-in logic here
+        setSignedIn(true);
+    };
+
+    const handleSignOut = () => {
+        setSignedIn(false);
+        setUsername('');
+        setPassword('');
+    };
+
+    if (!signedIn) {
+        return (
+            <View style={styles.container}>
+                <Text style={styles.title}>Sign In</Text>
+                <TextInput
+                    style={styles.input}
+                    placeholder="Username"
+                    value={username}
+                    onChangeText={setUsername}
+                />
+                <TextInput
+                    style={styles.input}
+                    placeholder="Password"
+                    value={password}
+                    onChangeText={setPassword}
+                    secureTextEntry
+                />
+                <Button title="Sign In" onPress={handleSignIn} />
+            </View>
+        );
+    }
+
+    return (
+        <View style={styles.container}>
+            <Button title="Sign Out" onPress={handleSignOut} />
+            <Text style={styles.title}>Welcome, {username}!</Text>
+        </View>
+    );
+};
+
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        padding: 16,
+        paddingTop: 100, // Adjust this value to bring down the content
+        backgroundColor: '#f0f0f0', // Set your desired background color here
+    },
+    title: {
+        fontSize: 24,
+        fontWeight: 'bold',
+        marginBottom: 16,
+    },
+    input: {
+        height: 40,
+        borderColor: 'gray',
+        borderWidth: 1,
+        marginBottom: 12,
+        paddingHorizontal: 8,
+    },
+});
+
+export default App;
