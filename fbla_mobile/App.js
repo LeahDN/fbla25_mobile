@@ -1,11 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { Text, SafeAreaView, StyleSheet, View, Button, Alert } from 'react-native';
+import { Text, SafeAreaView, StyleSheet, View, Button, Alert, TextInput } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { Image } from 'expo-image';
 import { useRoute } from '@react-navigation/native';
-//import { HomeScreen, DetailScreen } from './Screens'
-//import { styles } from './Stlye'
 
 const HomeScreen = ({ navigation }) => {
   // Declare state variables
@@ -40,7 +38,6 @@ const HomeScreen = ({ navigation }) => {
                 </View>
               </View>
             <Text style={styles.title}>{post.name}</Text>
-            <Text>{post.info}</Text>
           </View>
         ))
       )}
@@ -112,22 +109,65 @@ const DetailScreen = ({ route }) => {
 
 const Stack = createNativeStackNavigator();
 
-const App = () => (
-  <NavigationContainer>
-    <Stack.Navigator initialRouteName="Home">
-      <Stack.Screen name="Home" component={HomeScreen} />
-      <Stack.Screen name="Details" component={DetailScreen} />
-      <Stack.Screen name="Info" component={InfoScreen} />
-    </Stack.Navigator>
-  </NavigationContainer>
-);
+const App = () => {
+    const [signedIn, setSignedIn] = useState(false);
+    const [username, setUsername] = useState('');
+    const [password, setPassword] = useState('');
+
+    const handleSignIn = () => {
+        // Add your sign-in logic here
+        setSignedIn(true);
+    };
+
+    const handleSignOut = () => {
+        setSignedIn(false);
+        setUsername('');
+        setPassword('');
+    };
+
+    if (!signedIn) {
+        return (
+            <View style={styles.container}>
+                <Text style={styles.title}>Sign In</Text>
+                <TextInput
+                    style={styles.input}
+                    placeholder="Username"
+                    value={username}
+                    onChangeText={setUsername}
+                />
+                <TextInput
+                    style={styles.input}
+                    placeholder="Password"
+                    value={password}
+                    onChangeText={setPassword}
+                    secureTextEntry
+                />
+                <Button title="Sign In" onPress={handleSignIn} />
+            </View>
+        );
+    }
+
+    return (
+        <View style={styles.container}>
+            <Text style={styles.title}>Welcome, {username}!</Text>
+            <NavigationContainer>
+              <Stack.Navigator initialRouteName="Home">
+                <Stack.Screen name="Home" component={HomeScreen} />
+                <Stack.Screen name="Details" component={DetailScreen} />
+                <Stack.Screen name="Info" component={InfoScreen} />
+              </Stack.Navigator>
+            </NavigationContainer>
+            <Button title="Sign Out" onPress={handleSignOut} />
+        </View>
+    );
+};
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
     backgroundColor: '#ecf0f1',
-    padding: 8,
+    padding: 10,
   },
   container2: {
     flex: 1,
@@ -139,15 +179,16 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 20,
     fontWeight: 'bold',
+    //marginBottom: 16,
   },
   appButtonContainer: {
     elevation: 8,
     backgroundColor: "#ded8c5",
     borderRadius: 50,
-    paddingVertical: 10,
-    paddingHorizontal: 10,
-    width: 90,
-    height: 90,
+    paddingVertical: 5,
+    paddingHorizontal: 5,
+    width: 80,
+    height: 80,
     position: 'left'
   },
   appButtonContainer2: {
@@ -158,11 +199,18 @@ const styles = StyleSheet.create({
     paddingHorizontal: 12,
   },
   appButtonText: {
-    fontSize: 18,
+    fontSize: 14,
     color: "#000000",
     fontWeight: "bold",
     alignSelf: "center",
     textTransform: "uppercase",
+  },
+  input: {
+    height: 40,
+    borderColor: 'gray',
+    borderWidth: 1,
+    marginBottom: 12,
+    paddingHorizontal: 8,
   },
 });
 
