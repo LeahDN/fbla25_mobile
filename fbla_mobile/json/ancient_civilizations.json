@@ -3,35 +3,35 @@
             "key": "meso",
             "name": "Mesopotamia",
             "start_year": "3500 BCE",
-            "info": "info on Mesopotamia here",
+            "info": "Mesopotamia is considered the cradle of civilization.",
             "cool_pic": "https://www.worldhistory.org/img/c/p/1600x900/197.jpg"
         },
         {
             "key": "egpt",
             "name": "Ancient Egypt",
             "start_year": "3150 BCE",
-            "info": "info on Ancient Eqypt here",
+            "info": "Ancient Egypt is known for its pyramids and pharaohs.",
             "cool_pic": "https://www.gulla.net/contentassets/9fff228c87f74c33896de28dfd325e6d/pyramids.png"
         },
         {
             "key": "indu",
             "name": "Indus Valley Civilization",
             "start_year": "2600 BCE",
-            "info": "info on the Indus Valley Civilization here",
+            "info": "The Indus Valley Civilization was one of the earliest urban cultures.",
             "cool_pic": "https://wallpaperaccess.com/full/8748678.jpg"
         },
         {
             "key": "xiad",
             "name": "Ancient China (Xia Dynasty)",
             "start_year": "2000 BCE",
-            "info": "info on Ancient China here",
+            "info": "The Xia Dynasty is the first dynasty in traditional Chinese history.",
             "cool_pic": "https://th.bing.com/th/id/R.fe891347489a4064c57e35f8402d73c1?rik=pW4pN4LFnf1dwA&riu=http%3a%2f%2fartifactsws.art%2fwp-content%2fuploads%2f2024%2f03%2fDALL%c2%b7E-2024-03-14-00.24.37-Create-a-cinematic-style-image-that-represents-a-map-of-the-Xia-Dynastys-territories-based-on-historians-and-archaeologists-hypotheses.-Visualize-.webp&ehk=5uVS9kzrjck66Uxh1LPXDF3dC%2fKMWlmU37Sy3l6%2bXd4%3d&risl=&pid=ImgRaw&r=0"
         },
         {
             "key": "mino",
             "name": "Minoan Civilization",
             "start_year": "2700 BCE",
-            "info": "info on the Minoan Civilization here",
+            "info": "The Minoan civilization flourished on the island of Crete.",
             "cool_pic": "https://www.greeka.com/photos/greece/architecture/general/minoan-640.jpg"
         }
     ]
