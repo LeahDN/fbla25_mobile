@@ -87,7 +87,40 @@
         "start_year": "2600 BCE",
         "info": "The Indus Valley Civilization was one of the earliest urban cultures.",
         "cool_pic": "https://wallpaperaccess.com/full/8748678.jpg",
-        "words": []
+        "words": [
+            {
+                "answer": "Tigris",
+                "hint": "Mesopotamia was located between the Euphrates and this river",
+                "startx": 4,
+                "starty": 1,
+                "orientation": "down",
+                "position": 1
+            },
+            {
+                "answer": "Writing",
+                "hint": "Cuneiform was an early form of this",
+                "startx": 2,
+                "starty": 5,
+                "orientation": "across",
+                "position": 2
+            },
+            {
+                "answer": "Laws",
+                "hint": "The Code of Hammurabi was a collection of these",
+                "startx": 2,
+                "starty": 3,
+                "orientation": "down",
+                "position": 3
+            },
+            {
+                "answer": "Eye",
+                "hint": "The Code of Hammurabi uses the principle of _ for a _",
+                "startx": 5,
+                "starty": 2,
+                "orientation": "across",
+                "position": 4
+            }
+        ]
     },
     {
         "key": "xiad",
@@ -95,7 +128,40 @@
         "start_year": "2000 BCE",
         "info": "The Xia Dynasty is the first dynasty in traditional Chinese history.",
         "cool_pic": "https://th.bing.com/th/id/R.fe891347489a4064c57e35f8402d73c1?rik=pW4pN4LFnf1dwA&riu=http%3a%2f%2fartifactsws.art%2fwp-content%2fuploads%2f2024%2f03%2fDALL%c2%b7E-2024-03-14-00.24.37-Create-a-cinematic-style-image-that-represents-a-map-of-the-Xia-Dynastys-territories-based-on-historians-and-archaeologists-hypotheses.-Visualize-.webp&ehk=5uVS9kzrjck66Uxh1LPXDF3dC%2fKMWlmU37Sy3l6%2bXd4%3d&risl=&pid=ImgRaw&r=0",
-        "words": []
+        "words": [
+            {
+                "answer": "Tigris",
+                "hint": "Mesopotamia was located between the Euphrates and this river",
+                "startx": 4,
+                "starty": 1,
+                "orientation": "down",
+                "position": 1
+            },
+            {
+                "answer": "Writing",
+                "hint": "Cuneiform was an early form of this",
+                "startx": 2,
+                "starty": 5,
+                "orientation": "across",
+                "position": 2
+            },
+            {
+                "answer": "Laws",
+                "hint": "The Code of Hammurabi was a collection of these",
+                "startx": 2,
+                "starty": 3,
+                "orientation": "down",
+                "position": 3
+            },
+            {
+                "answer": "Eye",
+                "hint": "The Code of Hammurabi uses the principle of _ for a _",
+                "startx": 5,
+                "starty": 2,
+                "orientation": "across",
+                "position": 4
+            }
+        ]
     },
     {
         "key": "mino",
@@ -103,6 +169,39 @@
         "start_year": "2700 BCE",
         "info": "The Minoan civilization flourished on the island of Crete.",
         "cool_pic": "https://www.greeka.com/photos/greece/architecture/general/minoan-640.jpg",
-        "words": []
+        "words": [
+            {
+                "answer": "Tigris",
+                "hint": "Mesopotamia was located between the Euphrates and this river",
+                "startx": 4,
+                "starty": 1,
+                "orientation": "down",
+                "position": 1
+            },
+            {
+                "answer": "Writing",
+                "hint": "Cuneiform was an early form of this",
+                "startx": 2,
+                "starty": 5,
+                "orientation": "across",
+                "position": 2
+            },
+            {
+                "answer": "Laws",
+                "hint": "The Code of Hammurabi was a collection of these",
+                "startx": 2,
+                "starty": 3,
+                "orientation": "down",
+                "position": 3
+            },
+            {
+                "answer": "Eye",
+                "hint": "The Code of Hammurabi uses the principle of _ for a _",
+                "startx": 5,
+                "starty": 2,
+                "orientation": "across",
+                "position": 4
+            }
+        ]
     }
 ]
