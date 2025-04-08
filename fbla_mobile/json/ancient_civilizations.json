@@ -132,16 +132,16 @@
             {
                 "answer": "DYNASTY",
                 "hint": "This time was considered one of chinas first historical _",
-                "startx": 4,
-                "starty": 1,
+                "startx": 7,
+                "starty": 2,
                 "orientation": "down",
                 "position": 1
             },
             {
                 "answer": "MONARCHY",
                 "hint": "The Xia Dynasty established a hereditary _",
-                "startx": 2,
-                "starty": 5,
+                "startx": 1,
+                "starty": 4,
                 "orientation": "across",
                 "position": 2
             },
@@ -149,15 +149,15 @@
                 "answer": "FLOOD",
                 "hint": "According to legend, Yu the great controlled on of these",
                 "startx": 2,
-                "starty": 3,
+                "starty": 2,
                 "orientation": "down",
                 "position": 3
             },
             {
                 "answer": "CANALS",
                 "hint": "That great flood created a system of _",
-                "startx": 5,
-                "starty": 2,
+                "startx": 4,
+                "starty": 3,
                 "orientation": "across",
                 "position": 4
             }
@@ -173,7 +173,7 @@
             {
                 "answer": "CRETE",
                 "hint": "The Minoans flourished on the island of _",
-                "startx": 4,
+                "startx": 5,
                 "starty": 1,
                 "orientation": "down",
                 "position": 1
@@ -181,8 +181,8 @@
             {
                 "answer": "TRADE",
                 "hint": "The Minoans had _ networks across the Mediterranean",
-                "startx": 2,
-                "starty": 5,
+                "startx": 1,
+                "starty": 3,
                 "orientation": "across",
                 "position": 2
             },
@@ -190,15 +190,15 @@
                 "answer": "LINEARA",
                 "hint": "The Minoans writing system",
                 "startx": 2,
-                "starty": 3,
+                "starty": 5,
                 "orientation": "down",
                 "position": 3
             },
             {
                 "answer": "Knossos",
                 "hint": "They had a well know palace here",
-                "startx": 5,
-                "starty": 2,
+                "startx": 1,
+                "starty": 7,
                 "orientation": "across",
                 "position": 4
             }
