@@ -56,20 +56,20 @@
                 "position": 1
             },
             {
-                "answer": "PYRAMID",
-                "hint": "Monumental tombs in Egypt",
-                "startx": 1,
-                "starty": 4,
-                "orientation": "across",
-                "position": 2
-            },
-            {
                 "answer": "PHARAOHS",
                 "hint": "Rulers of Ancient Egypt",
                 "startx": 3,
                 "starty": 1,
                 "orientation": "down",
                 "position": 3
+            },
+             {
+                "answer": "PYRAMID",
+                "hint": "Monumental tombs in Egypt",
+                "startx": 1,
+                "starty": 4,
+                "orientation": "across",
+                "position": 2
             },
             {
                 "answer": "KINGS",
