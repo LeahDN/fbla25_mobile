@@ -90,33 +90,33 @@
         "words": [
             {
                 "answer": "BRICK",
-                "hint": "Mesopotamia was located between the Euphrates and this river",
-                "startx": 4,
-                "starty": 1,
+                "hint": "The Indus Valley had standardized _ construction",
+                "startx": 1,
+                "starty": 2,
                 "orientation": "down",
                 "position": 1
             },
             {
-                "answer": "WEIGHTS",
-                "hint": "Cuneiform was an early form of this",
-                "startx": 2,
-                "starty": 5,
+                "answer": "WEIGHT",
+                "hint": "Had an early system to measurementer this",
+                "startx": 6,
+                "starty": 3,
                 "orientation": "across",
                 "position": 2
             },
             {
-                "answer": "Laws",
-                "hint": "The Code of Hammurabi was a collection of these",
+                "answer": "URBAN",
+                "hint": "Indus Valley had many cities and was a _ center",
                 "startx": 2,
-                "starty": 3,
+                "starty": 1,
                 "orientation": "down",
                 "position": 3
             },
             {
-                "answer": "Eye",
-                "hint": "The Code of Hammurabi uses the principle of _ for a _",
-                "startx": 5,
-                "starty": 2,
+                "answer": "INVASION",
+                "hint": "Some spectulate that the indus valleys down fall was due _",
+                "startx": 1,
+                "starty": 5,
                 "orientation": "across",
                 "position": 4
             }
@@ -126,36 +126,36 @@
         "key": "xiad",
         "name": "Ancient China (Xia Dynasty)",
         "start_year": "2000 BCE",
-        "info": "The Xia Dynasty is the first dynasty in traditional Chinese history.",
+        "info": "The Xia Dynasty is considered China's first historical dynasty. According to lengend it was founded by Yu the Great, who controlled the Great Flood and establishing a system of canals and irrigation. It laid the foundation for future Chinese dynasties, with the establishment of a hereditary monarchy. The Xia is believed to have contributed to the development of metallurgy, agriculture, and the beginnings of Chinese writing.",
         "cool_pic": "https://th.bing.com/th/id/R.fe891347489a4064c57e35f8402d73c1?rik=pW4pN4LFnf1dwA&riu=http%3a%2f%2fartifactsws.art%2fwp-content%2fuploads%2f2024%2f03%2fDALL%c2%b7E-2024-03-14-00.24.37-Create-a-cinematic-style-image-that-represents-a-map-of-the-Xia-Dynastys-territories-based-on-historians-and-archaeologists-hypotheses.-Visualize-.webp&ehk=5uVS9kzrjck66Uxh1LPXDF3dC%2fKMWlmU37Sy3l6%2bXd4%3d&risl=&pid=ImgRaw&r=0",
         "words": [
             {
-                "answer": "Tigris",
-                "hint": "Mesopotamia was located between the Euphrates and this river",
+                "answer": "DYNASTY",
+                "hint": "This time was considered one of chinas first historical _",
                 "startx": 4,
                 "starty": 1,
                 "orientation": "down",
                 "position": 1
             },
             {
-                "answer": "Writing",
-                "hint": "Cuneiform was an early form of this",
+                "answer": "MONARCHY",
+                "hint": "The Xia Dynasty established a hereditary _",
                 "startx": 2,
                 "starty": 5,
                 "orientation": "across",
                 "position": 2
             },
             {
-                "answer": "Laws",
-                "hint": "The Code of Hammurabi was a collection of these",
+                "answer": "FLOOD",
+                "hint": "According to legend, Yu the great controlled on of these",
                 "startx": 2,
                 "starty": 3,
                 "orientation": "down",
                 "position": 3
             },
             {
-                "answer": "Eye",
-                "hint": "The Code of Hammurabi uses the principle of _ for a _",
+                "answer": "CANALS",
+                "hint": "That great flood created a system of _",
                 "startx": 5,
                 "starty": 2,
                 "orientation": "across",
@@ -167,36 +167,36 @@
         "key": "mino",
         "name": "Minoan Civilization",
         "start_year": "2700 BCE",
-        "info": "The Minoan civilization flourished on the island of Crete.",
+        "info": "The Minoans flourished on the island of Crete. Known for their advanced palaces, particularly the one at Knossos, they had a vibrant culture, advanced art, and trade networks across the Mediterranean. They developed a unique script called Linear A, which remains undeciphered",
         "cool_pic": "https://www.greeka.com/photos/greece/architecture/general/minoan-640.jpg",
         "words": [
             {
-                "answer": "Tigris",
-                "hint": "Mesopotamia was located between the Euphrates and this river",
+                "answer": "CRETE",
+                "hint": "The Minoans flourished on the island of _",
                 "startx": 4,
                 "starty": 1,
                 "orientation": "down",
                 "position": 1
             },
             {
-                "answer": "Writing",
-                "hint": "Cuneiform was an early form of this",
+                "answer": "TRADE",
+                "hint": "The Minoans had _ networks across the Mediterranean",
                 "startx": 2,
                 "starty": 5,
                 "orientation": "across",
                 "position": 2
             },
             {
-                "answer": "Laws",
-                "hint": "The Code of Hammurabi was a collection of these",
+                "answer": "LINEARA",
+                "hint": "The Minoans writing system",
                 "startx": 2,
                 "starty": 3,
                 "orientation": "down",
                 "position": 3
             },
             {
-                "answer": "Eye",
-                "hint": "The Code of Hammurabi uses the principle of _ for a _",
+                "answer": "Knossos",
+                "hint": "They had a well know palace here",
                 "startx": 5,
                 "starty": 2,
                 "orientation": "across",
