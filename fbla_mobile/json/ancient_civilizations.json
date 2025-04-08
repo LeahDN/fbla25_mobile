@@ -7,7 +7,7 @@
         "cool_pic": "https://www.worldhistory.org/img/c/p/1600x900/197.jpg",
         "words": [
             {
-                "answer": "Tigris",
+                "answer": "TIGRIS",
                 "hint": "Mesopotamia was located between the Euphrates and this river",
                 "startx": 4,
                 "starty": 1,
@@ -15,7 +15,7 @@
                 "position": 1
             },
             {
-                "answer": "Writing",
+                "answer": "WRITING",
                 "hint": "Cuneiform was an early form of this",
                 "startx": 2,
                 "starty": 5,
@@ -23,7 +23,7 @@
                 "position": 2
             },
             {
-                "answer": "Laws",
+                "answer": "LAWS",
                 "hint": "The Code of Hammurabi was a collection of these",
                 "startx": 2,
                 "starty": 3,
@@ -31,10 +31,10 @@
                 "position": 3
             },
             {
-                "answer": "Eye",
+                "answer": "EYE",
                 "hint": "The Code of Hammurabi uses the principle of _ for a _",
                 "startx": 5,
-                "starty": 2,
+                "starty": 7,
                 "orientation": "across",
                 "position": 4
             }
@@ -48,35 +48,35 @@
         "cool_pic": "https://www.gulla.net/contentassets/9fff228c87f74c33896de28dfd325e6d/pyramids.png",
         "words": [
             {
-                "answer": "Nile",
+                "answer": "NILE",
                 "hint": "River Ancient Egypt thrived on",
-                "startx": 4,
+                "startx": 5,
                 "starty": 1,
-                "orientation": "down",
+                "orientation": "across",
                 "position": 1
             },
             {
-                "answer": "Pyramids",
+                "answer": "PYRAMIDS",
                 "hint": "Monumental tombs in Egypt",
-                "startx": 2,
-                "starty": 5,
+                "startx": 1,
+                "starty": 4,
                 "orientation": "across",
                 "position": 2
             },
             {
-                "answer": "Pharaohs",
+                "answer": "PHARAOHS",
                 "hint": "Rulers of Ancient Egypt",
-                "startx": 2,
-                "starty": 3,
+                "startx": 3,
+                "starty": 1,
                 "orientation": "down",
                 "position": 3
             },
             {
-                "answer": "Kings",
+                "answer": "KINGS",
                 "hint": "Valley where a lot of royal tombs were found",
-                "startx": 5,
-                "starty": 2,
-                "orientation": "across",
+                "startx": 6,
+                "starty": 3,
+                "orientation": "down",
                 "position": 4
             }
         ]
@@ -85,11 +85,11 @@
         "key": "indu",
         "name": "Indus Valley Civilization",
         "start_year": "2600 BCE",
-        "info": "The Indus Valley Civilization was one of the earliest urban cultures.",
+        "info": "In present-day Pakistan and northwest India, the Indus Valley was one of the world's earliest urban centers. Known for its well-planned cities, this civilization had advanced sanitation and standardized brick construction. They had a standardized system of weights and measures. The Indus writing remains undeciphered, and their decline remains a mystery. It's possibly due to environmental factors or invasions.",
         "cool_pic": "https://wallpaperaccess.com/full/8748678.jpg",
         "words": [
             {
-                "answer": "Tigris",
+                "answer": "BRICK",
                 "hint": "Mesopotamia was located between the Euphrates and this river",
                 "startx": 4,
                 "starty": 1,
@@ -97,7 +97,7 @@
                 "position": 1
             },
             {
-                "answer": "Writing",
+                "answer": "WEIGHTS",
                 "hint": "Cuneiform was an early form of this",
                 "startx": 2,
                 "starty": 5,
