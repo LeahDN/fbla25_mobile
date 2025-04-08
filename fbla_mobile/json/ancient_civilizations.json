@@ -1,106 +1,207 @@
 [
-        {
-            "key": "meso",
-            "name": "Mesopotamia",
-            "start_year": "3500 BCE",
-            "info": "Often called the Cradle of Civilization, Mesopotamia was located between the Tigris and Euphrates rivers. It is known for developing cuneiform, the first writing system. Major civilizations here included the Sumerians, Akkadians, Babylonians, and Assyrians. Mesopotamians also had laws. The Code of Hammurabi was a collection of laws inscribed on a stone. The Code of Hammurabi is where the term an eye for an eye came from.",
-            "cool_pic": "https://www.worldhistory.org/img/c/p/1600x900/197.jpg",
-            "words":{
-				answer: "Tigris",
-				hint: "Mesopotamia was located between the Euphrates and this river",
-				startx: 4,
-				starty: 1,
-				orientation: "down",
-				position: 1,
-			},
-			{
-				answer: "Writing",
-				hint: "Cuneiform was an early form of this",
-				startx: 2,
-				starty: 5,
-				orientation: "across",
-				position: 2,
-			},
-			{
-				answer: "Laws",
-				hint: "The Code of Hammurabi was a collection of these",
-				startx: 2,
-				starty: 3,
-				orientation: "down",
-				position: 3,
-			},
-			{
-				answer: "Eye",
-				hint: "The Code of Hammurabi uses the principle of _ for a _",
-				startx: 5,
-				starty: 2,
-				orientation: "across",
-				position: 4,
-			}  
-        },
-        {
-            "key": "egpt",
-            "name": "Ancient Egypt",
-            "start_year": "3150 BCE",
-            "info": "Ancient Egypt thrived along the Nile River. Egypt is famous for its monumental pyramids and the Sphinx. The rules of Ancient Egypt were called Pharaohs. Many Pharaohs were buried in the Valley of the Kings. One of the most well-known tombs in the Valley of the Kings is the tomb of King Tut. It was almost fully intact when found.",
-            "cool_pic": "https://www.gulla.net/contentassets/9fff228c87f74c33896de28dfd325e6d/pyramids.png",
-            "words": {
-				answer: "Nile",
-				hint: "River Ancient Egypt thrived on",
-				startx: 4,
-				starty: 1,
-				orientation: "down",
-				position: 1,
-			},
-			{
-				answer: "Pyramids",
-				hint: "Monumental tombs in Egypt",
-				startx: 2,
-				starty: 5,
-				orientation: "across",
-				position: 2,
-			},
-			{
-				answer: "Pharaohs",
-				hint: "Rulers of Ancient Egypt",
-				startx: 2,
-				starty: 3,
-				orientation: "down",
-				position: 3,
-			},
-			{
-				answer: "Kings",
-				hint: "Valley where a lot of royal tombs were found",
-				startx: 5,
-				starty: 2,
-				orientation: "across",
-				position: 4,
-			}      
-        },
-        {
-            "key": "indu",
-            "name": "Indus Valley Civilization",
-            "start_year": "2600 BCE",
-            "info": "The Indus Valley Civilization was one of the earliest urban cultures.",
-            "cool_pic": "https://wallpaperaccess.com/full/8748678.jpg",
-	    "words":{}
-		
-        },
-        {
-            "key": "xiad",
-            "name": "Ancient China (Xia Dynasty)",
-            "start_year": "2000 BCE",
-            "info": "The Xia Dynasty is the first dynasty in traditional Chinese history.",
-            "cool_pic": "https://th.bing.com/th/id/R.fe891347489a4064c57e35f8402d73c1?rik=pW4pN4LFnf1dwA&riu=http%3a%2f%2fartifactsws.art%2fwp-content%2fuploads%2f2024%2f03%2fDALL%c2%b7E-2024-03-14-00.24.37-Create-a-cinematic-style-image-that-represents-a-map-of-the-Xia-Dynastys-territories-based-on-historians-and-archaeologists-hypotheses.-Visualize-.webp&ehk=5uVS9kzrjck66Uxh1LPXDF3dC%2fKMWlmU37Sy3l6%2bXd4%3d&risl=&pid=ImgRaw&r=0",
-	    "words":{}
-		
-        },
-        {
-            "key": "mino",
-            "name": "Minoan Civilization",
-            "start_year": "2700 BCE",
-            "info": "The Minoan civilization flourished on the island of Crete.",
-            "cool_pic": "https://www.greeka.com/photos/greece/architecture/general/minoan-640.jpg",
-	    "words":{}
-        }
-    ]
+    {
+        "key": "meso",
+        "name": "Mesopotamia",
+        "start_year": "3500 BCE",
+        "info": "Often called the Cradle of Civilization, Mesopotamia was located between the Tigris and Euphrates rivers. It is known for developing cuneiform, the first writing system. Major civilizations here included the Sumerians, Akkadians, Babylonians, and Assyrians. Mesopotamians also had laws. The Code of Hammurabi was a collection of laws inscribed on a stone. The Code of Hammurabi is where the term an eye for an eye came from.",
+        "cool_pic": "https://www.worldhistory.org/img/c/p/1600x900/197.jpg",
+        "words": [
+            {
+                "answer": "TIGRIS",
+                "hint": "Mesopotamia was located between the Euphrates and this river",
+                "startx": 4,
+                "starty": 1,
+                "orientation": "down",
+                "position": 1
+            },
+            {
+                "answer": "WRITING",
+                "hint": "Cuneiform was an early form of this",
+                "startx": 2,
+                "starty": 5,
+                "orientation": "across",
+                "position": 2
+            },
+            {
+                "answer": "LAWS",
+                "hint": "The Code of Hammurabi was a collection of these",
+                "startx": 2,
+                "starty": 3,
+                "orientation": "down",
+                "position": 3
+            },
+            {
+                "answer": "EYE",
+                "hint": "The Code of Hammurabi uses the principle of _ for a _",
+                "startx": 5,
+                "starty": 7,
+                "orientation": "across",
+                "position": 4
+            }
+        ]
+    },
+    {
+        "key": "egpt",
+        "name": "Ancient Egypt",
+        "start_year": "3150 BCE",
+        "info": "Ancient Egypt thrived along the Nile River. Egypt is famous for its monumental pyramids and the Sphinx. The rules of Ancient Egypt were called Pharaohs. Many Pharaohs were buried in the Valley of the Kings. One of the most well-known tombs in the Valley of the Kings is the tomb of King Tut. It was almost fully intact when found.",
+        "cool_pic": "https://www.gulla.net/contentassets/9fff228c87f74c33896de28dfd325e6d/pyramids.png",
+        "words": [
+            {
+                "answer": "NILE",
+                "hint": "River Ancient Egypt thrived on",
+                "startx": 5,
+                "starty": 1,
+                "orientation": "across",
+                "position": 1
+            },
+            {
+                "answer": "PHARAOHS",
+                "hint": "Rulers of Ancient Egypt",
+                "startx": 3,
+                "starty": 1,
+                "orientation": "down",
+                "position": 3
+            },
+             {
+                "answer": "PYRAMID",
+                "hint": "Monumental tombs in Egypt",
+                "startx": 1,
+                "starty": 4,
+                "orientation": "across",
+                "position": 2
+            },
+            {
+                "answer": "KINGS",
+                "hint": "Valley where a lot of royal tombs were found",
+                "startx": 6,
+                "starty": 3,
+                "orientation": "down",
+                "position": 4
+            }
+        ]
+    },
+    {
+        "key": "indu",
+        "name": "Indus Valley Civilization",
+        "start_year": "2600 BCE",
+        "info": "In present-day Pakistan and northwest India, the Indus Valley was one of the world's earliest urban centers. Known for its well-planned cities, this civilization had advanced sanitation and standardized brick construction. They had a standardized system of weights and measures. The Indus writing remains undeciphered, and their decline remains a mystery. It's possibly due to environmental factors or invasions.",
+        "cool_pic": "https://wallpaperaccess.com/full/8748678.jpg",
+        "words": [
+            {
+                "answer": "BRICK",
+                "hint": "The Indus Valley had standardized _ construction",
+                "startx": 1,
+                "starty": 2,
+                "orientation": "down",
+                "position": 1
+            },
+            {
+                "answer": "WEIGHT",
+                "hint": "Had an early system to measurementer this",
+                "startx": 6,
+                "starty": 3,
+                "orientation": "across",
+                "position": 2
+            },
+            {
+                "answer": "URBAN",
+                "hint": "Indus Valley had many cities and was a _ center",
+                "startx": 2,
+                "starty": 1,
+                "orientation": "down",
+                "position": 3
+            },
+            {
+                "answer": "INVASION",
+                "hint": "Some spectulate that the indus valleys down fall was due _",
+                "startx": 1,
+                "starty": 5,
+                "orientation": "across",
+                "position": 4
+            }
+        ]
+    },
+    {
+        "key": "xiad",
+        "name": "Ancient China (Xia Dynasty)",
+        "start_year": "2000 BCE",
+        "info": "The Xia Dynasty is considered China's first historical dynasty. According to lengend it was founded by Yu the Great, who controlled the Great Flood and establishing a system of canals and irrigation. It laid the foundation for future Chinese dynasties, with the establishment of a hereditary monarchy. The Xia is believed to have contributed to the development of metallurgy, agriculture, and the beginnings of Chinese writing.",
+        "cool_pic": "https://th.bing.com/th/id/R.fe891347489a4064c57e35f8402d73c1?rik=pW4pN4LFnf1dwA&riu=http%3a%2f%2fartifactsws.art%2fwp-content%2fuploads%2f2024%2f03%2fDALL%c2%b7E-2024-03-14-00.24.37-Create-a-cinematic-style-image-that-represents-a-map-of-the-Xia-Dynastys-territories-based-on-historians-and-archaeologists-hypotheses.-Visualize-.webp&ehk=5uVS9kzrjck66Uxh1LPXDF3dC%2fKMWlmU37Sy3l6%2bXd4%3d&risl=&pid=ImgRaw&r=0",
+        "words": [
+            {
+                "answer": "DYNASTY",
+                "hint": "This time was considered one of chinas first historical _",
+                "startx": 7,
+                "starty": 2,
+                "orientation": "down",
+                "position": 1
+            },
+            {
+                "answer": "MONARCHY",
+                "hint": "The Xia Dynasty established a hereditary _",
+                "startx": 1,
+                "starty": 4,
+                "orientation": "across",
+                "position": 2
+            },
+            {
+                "answer": "FLOOD",
+                "hint": "According to legend, Yu the great controlled on of these",
+                "startx": 2,
+                "starty": 2,
+                "orientation": "down",
+                "position": 3
+            },
+            {
+                "answer": "CANALS",
+                "hint": "That great flood created a system of _",
+                "startx": 4,
+                "starty": 3,
+                "orientation": "across",
+                "position": 4
+            }
+        ]
+    },
+    {
+        "key": "mino",
+        "name": "Minoan Civilization",
+        "start_year": "2700 BCE",
+        "info": "The Minoans flourished on the island of Crete. Known for their advanced palaces, particularly the one at Knossos, they had a vibrant culture, advanced art, and trade networks across the Mediterranean. They developed a unique script called Linear A, which remains undeciphered",
+        "cool_pic": "https://www.greeka.com/photos/greece/architecture/general/minoan-640.jpg",
+        "words": [
+            {
+                "answer": "CRETE",
+                "hint": "The Minoans flourished on the island of _",
+                "startx": 5,
+                "starty": 1,
+                "orientation": "down",
+                "position": 1
+            },
+            {
+                "answer": "TRADE",
+                "hint": "The Minoans had _ networks across the Mediterranean",
+                "startx": 1,
+                "starty": 3,
+                "orientation": "across",
+                "position": 2
+            },
+            {
+                "answer": "LINEARA",
+                "hint": "The Minoans writing system",
+                "startx": 2,
+                "starty": 5,
+                "orientation": "down",
+                "position": 3
+            },
+            {
+                "answer": "Knossos",
+                "hint": "They had a well know palace here",
+                "startx": 1,
+                "starty": 7,
+                "orientation": "across",
+                "position": 4
+            }
+        ]
+    }
+]
