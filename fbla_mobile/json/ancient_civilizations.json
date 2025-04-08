@@ -92,7 +92,7 @@
                 "answer": "BRICK",
                 "hint": "The Indus Valley had standardized _ construction",
                 "startx": 1,
-                "starty": 2,
+                "starty": 3,
                 "orientation": "down",
                 "position": 1
             },
@@ -107,7 +107,7 @@
             {
                 "answer": "URBAN",
                 "hint": "Indus Valley had many cities and was a _ center",
-                "startx": 2,
+                "startx": 8,
                 "starty": 1,
                 "orientation": "down",
                 "position": 3
