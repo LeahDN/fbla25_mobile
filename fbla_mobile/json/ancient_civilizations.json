@@ -132,23 +132,23 @@
             {
                 "answer": "DYNASTY",
                 "hint": "This time was considered one of chinas first historical _",
-                "startx": 7,
-                "starty": 2,
+                "startx": 2,
+                "starty": 8,
                 "orientation": "down",
                 "position": 1
             },
             {
                 "answer": "MONARCHY",
                 "hint": "The Xia Dynasty established a hereditary _",
-                "startx": 1,
-                "starty": 4,
-                "orientation": "across",
+                "startx": 3,
+                "starty": 1,
+                "orientation": "down",
                 "position": 2
             },
             {
                 "answer": "FLOOD",
                 "hint": "According to legend, Yu the great controlled on of these",
-                "startx": 2,
+                "startx": 1,
                 "starty": 2,
                 "orientation": "down",
                 "position": 3
@@ -156,7 +156,7 @@
             {
                 "answer": "CANALS",
                 "hint": "That great flood created a system of _",
-                "startx": 4,
+                "startx": 6,
                 "starty": 3,
                 "orientation": "down",
                 "position": 4
