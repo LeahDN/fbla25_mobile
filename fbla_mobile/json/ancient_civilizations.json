@@ -134,7 +134,7 @@
                 "hint": "This time was considered one of chinas first historical _",
                 "startx": 2,
                 "starty": 8,
-                "orientation": "down",
+                "orientation": "across",
                 "position": 1
             },
             {
@@ -150,7 +150,7 @@
                 "hint": "According to legend, Yu the great controlled on of these",
                 "startx": 1,
                 "starty": 2,
-                "orientation": "down",
+                "orientation": "across",
                 "position": 3
             },
             {
