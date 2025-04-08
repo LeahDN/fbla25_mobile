@@ -158,7 +158,7 @@
                 "hint": "That great flood created a system of _",
                 "startx": 4,
                 "starty": 3,
-                "orientation": "across",
+                "orientation": "down",
                 "position": 4
             }
         ]
