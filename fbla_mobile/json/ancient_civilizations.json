@@ -38,6 +38,33 @@
                 "orientation": "across",
                 "position": 4
             }
+        ],
+        "questions": [
+            {
+                "question": "What Mesopotamia is often called?",
+                "options": ["Birthplace of Civilization", "Cradle of Civilization", "Birthplace of Humanity", "Cradle of Humanity"],
+                "correctAnswer": "Cradle of Civilization"
+            },
+            {
+                "question": "What are the two major rivers that defined Mesopotamia?",
+                "options": ["Nile and Amazon", "Tigris and Euphrates", "Yangtze and Ganges", "Mississippi and Missouri"],
+                "correctAnswer": "Tigris and Euphrates"
+            },
+            {
+                "question": "Which writing system was developed in Mesopotamia?",
+                "options": ["Hieroglyphics", "Alphabet", "Pictographs", "Cuneiform"],
+                "correctAnswer": "Cuneiform"
+            },
+            {
+                "question": "What was the Code of Hammurabi?",
+                "options": ["A collection of laws", "A religious text", "A historical narrative", "A literary work"],
+                "correctAnswer": "A collection of laws"
+            },
+            {
+                "question": "Which is on of the first civilization in Mesopotamia?",
+                "options": ["Egyptians", "Sumerians", "Trojens", "Missourians"],
+                "correctAnswer": "Sumerians"
+            }
         ]
         "questions": [
             {
@@ -105,6 +132,33 @@
                 "starty": 3,
                 "orientation": "down",
                 "position": 4
+            }
+        ],
+        "questions": [
+            {
+                "question": "What river was essential to the development of Ancient Egyptian civilization?",
+                "options": ["Amazon", "Tigris", "Nile", "Euphrates"],
+                "correctAnswer": "Nile"
+            },
+            {
+                "question": "Who were the rulers of Ancient Egypt, considered both kings and gods?",
+                "options": ["Emperors", "Pharaohs", "Sultans", "Khans"],
+                "correctAnswer": "Pharaohs"
+            },
+            {
+                "question": "Which type of structure served as monumental tombs for Egyptian rulers",
+                "options": [" Temples", "Obelisks", "Pyramids", "Ziggurats"],
+                "correctAnswer": "Pyramids"
+            },
+            {
+                "question": "What famous archaeological site is home to the tomb of King Tutankhamun?",
+                "options": ["Giza Plateau", "Karnak Temple", "Valley of the Kings", "Luxor"],
+                "correctAnswer": "Valley of the Kings"
+            },
+            {
+                "question": "What is the name of the large stone statue with the body of a lion and the head of a pharaoh?",
+                "options": ["The Obelisk", "The Sphinx", "The Colossus", "The Guardian"],
+                "correctAnswer": "The Sphinx"
             }
         ]
         "questions": [
@@ -174,6 +228,33 @@
                 "orientation": "across",
                 "position": 4
             }
+        ],
+      "questions": [
+            {
+                "question": "What Mesopotamia is often called?",
+                "options": ["Birthplace of Civilization", "Cradle of Civilization", "Birthplace of Humanity", "Cradle of Humanity"],
+                "correctAnswer": "Cradle of Civilization"
+            },
+            {
+                "question": "What are the two major rivers that defined Mesopotamia?",
+                "options": ["Nile and Amazon", "Tigris and Euphrates", "Yangtze and Ganges", "Mississippi and Missouri"],
+                "correctAnswer": "Tigris and Euphrates"
+            },
+            {
+                "question": "Which writing system was developed in Mesopotamia?",
+                "options": ["Hieroglyphics", "Alphabet", "Pictographs", "Cuneiform"],
+                "correctAnswer": "Cuneiform"
+            },
+            {
+                "question": "What was the Code of Hammurabi?",
+                "options": ["A collection of laws", "A religious text", "A historical narrative", "A literary work"],
+                "correctAnswer": "A collection of laws"
+            },
+            {
+                "question": "Which is on of the first civilization in Mesopotamia?",
+                "options": ["Egyptians", "Sumerians", "Trojens", "Missourians"],
+                "correctAnswer": "Sumerians"
+            }
         ]
         "questions": [
             {
@@ -242,6 +323,33 @@
                 "orientation": "down",
                 "position": 4
             }
+        ],
+      "questions": [
+            {
+                "question": "What Mesopotamia is often called?",
+                "options": ["Birthplace of Civilization", "Cradle of Civilization", "Birthplace of Humanity", "Cradle of Humanity"],
+                "correctAnswer": "Cradle of Civilization"
+            },
+            {
+                "question": "What are the two major rivers that defined Mesopotamia?",
+                "options": ["Nile and Amazon", "Tigris and Euphrates", "Yangtze and Ganges", "Mississippi and Missouri"],
+                "correctAnswer": "Tigris and Euphrates"
+            },
+            {
+                "question": "Which writing system was developed in Mesopotamia?",
+                "options": ["Hieroglyphics", "Alphabet", "Pictographs", "Cuneiform"],
+                "correctAnswer": "Cuneiform"
+            },
+            {
+                "question": "What was the Code of Hammurabi?",
+                "options": ["A collection of laws", "A religious text", "A historical narrative", "A literary work"],
+                "correctAnswer": "A collection of laws"
+            },
+            {
+                "question": "Which is on of the first civilization in Mesopotamia?",
+                "options": ["Egyptians", "Sumerians", "Trojens", "Missourians"],
+                "correctAnswer": "Sumerians"
+            }
         ]
         "questions": [
             {
@@ -309,6 +417,33 @@
                 "starty": 7,
                 "orientation": "across",
                 "position": 4
+            }
+        ],
+        "questions": [
+            {
+                "question": "What Mesopotamia is often called?",
+                "options": ["Birthplace of Civilization", "Cradle of Civilization", "Birthplace of Humanity", "Cradle of Humanity"],
+                "correctAnswer": "Cradle of Civilization"
+            },
+            {
+                "question": "What are the two major rivers that defined Mesopotamia?",
+                "options": ["Nile and Amazon", "Tigris and Euphrates", "Yangtze and Ganges", "Mississippi and Missouri"],
+                "correctAnswer": "Tigris and Euphrates"
+            },
+            {
+                "question": "Which writing system was developed in Mesopotamia?",
+                "options": ["Hieroglyphics", "Alphabet", "Pictographs", "Cuneiform"],
+                "correctAnswer": "Cuneiform"
+            },
+            {
+                "question": "What was the Code of Hammurabi?",
+                "options": ["A collection of laws", "A religious text", "A historical narrative", "A literary work"],
+                "correctAnswer": "A collection of laws"
+            },
+            {
+                "question": "Which is on of the first civilization in Mesopotamia?",
+                "options": ["Egyptians", "Sumerians", "Trojens", "Missourians"],
+                "correctAnswer": "Sumerians"
             }
         ]
         "questions": [
