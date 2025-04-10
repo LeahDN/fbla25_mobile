@@ -6,7 +6,7 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 const Stack = createNativeStackNavigator();
 
 // Replace with your GitHub personal access token and repository details
-const GITHUB_TOKEN = "GITHUB_Token (Have it in expo-file named SignUp)";
+const GITHUB_TOKEN = "GITHUB_Token (Have it in expo-file named SignUp, must be the general token not the more direct can be made whenever easily token)";
 const REPO_OWNER = "LeahDN";
 const REPO_NAME = "fbla25_mobile";
 const FILE_PATH = "fbla_mobile/json/User_Data.json"; // File to store user data
