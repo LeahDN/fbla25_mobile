@@ -15,7 +15,7 @@ export const HomeScreen1 = ({ navigation, route }) => {
   const [loading, setLoading] = useState(true);
 
   // API URL
-  const url ='https://raw.githubusercontent.com/LeahDN/fbla25_mobile/refs/heads/main/fbla_mobile/json/ancient_civilizations.json';
+  const url ='https://raw.githubusercontent.com/LeahDN/fbla25_mobile/refs/heads/main/json/ancient_civilizations.json';
 
   // Fetch data from the API
   useEffect(() => {
