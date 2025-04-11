@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { View, Text, TextInput, Pressable, StyleSheet } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
@@ -6,7 +6,7 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 const Stack = createNativeStackNavigator();
 
 // Replace with your GitHub personal access token and repository details
-const GITHUB_TOKEN = "GITHUB_Token (Have it in expo-file named SignUp, must be the general token not the more direct can be made whenever easily token)";
+const GITHUB_TOKEN = "My_Token";
 const REPO_OWNER = "LeahDN";
 const REPO_NAME = "fbla25_mobile";
 const FILE_PATH = "fbla_mobile/json/User_Data.json"; // File to store user data
@@ -83,7 +83,7 @@ const SignInScreen = ({ navigation }) => {
 
   const handleSignIn = async () => {
     const users = await fetchUsersFromGitHub();
-    if (users[username] && users[username] === password) {
+    if (users[username] && users[username].password === password) {
       navigation.replace("Home", { username });
     } else {
       alert("Invalid username or password");
@@ -122,14 +122,13 @@ const SignInScreen = ({ navigation }) => {
 const SignUpScreen = ({ navigation }) => {
   const [newUsername, setNewUsername] = useState("");
   const [newPassword, setNewPassword] = useState("");
-
   const handleSignUp = async () => {
     if (newUsername && newPassword) {
       const users = await fetchUsersFromGitHub();
       if (users[newUsername]) {
         alert("Username already exists");
       } else {
-        users[newUsername] = newPassword;
+        users[newUsername] = { password: newPassword, score: 0};
         await saveUsersToGitHub(users);
         alert("Account created successfully!");
         navigation.goBack();
@@ -163,15 +162,39 @@ const SignUpScreen = ({ navigation }) => {
 };
 
 const HomeScreen = ({ navigation, route }) => {
-  const { username = "Guest" } = route.params || {};
+  const { username } = route.params || {};
+  const [score, setScore] = useState(0);
+
+   useEffect(() => {
+    const fetchUserScore = async () => {
+      const users = await fetchUsersFromGitHub();
+      if (users[username]) {
+        setScore(users[username].score);
+      }
+    };
+    fetchUserScore();
+  }, [username]);
 
   const handleSignOut = () => {
     navigation.replace("SignIn");
   };
 
+  const handleUpdateScore = async () => {
+    const users = await fetchUsersFromGitHub();
+    if (users[username]) {
+      users[username].score += 10; // Increment score by 10 (example)
+      await saveUsersToGitHub(users);
+      setScore(users[username].score);
+    }
+  };
+
   return (
     <View style={styles.container}>
       <Text style={styles.welcomeMessage}>Hello, {username}!</Text>
+      <Text style={styles.welcomeMessage}>Your Score: {score}</Text>
+      <Pressable style={styles.signOutButton} onPress={handleUpdateScore}>
+        <Text style={styles.signOutButtonText}>Increase Score</Text>
+      </Pressable>
       <Pressable style={styles.signOutButton} onPress={handleSignOut}>
         <Text style={styles.signOutButtonText}>Sign Out</Text>
       </Pressable>
@@ -263,4 +286,3 @@ const styles = StyleSheet.create({
 });
 
 export default App;
-
