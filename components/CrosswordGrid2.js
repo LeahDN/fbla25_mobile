@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { View, TextInput, StyleSheet, Text, Button } from 'react-native';
-import { styles } from './Style/Style1'
+import { styles } from '../Style/Style1'
 
 const generateInitialGrid = (crosswordData) => {
   const initialGrid = Array(8).fill(0).map(() => Array(8).fill('X'));

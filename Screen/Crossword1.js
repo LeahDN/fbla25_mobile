@@ -2,7 +2,7 @@
 import { View, Text, TextInput,  Button, ScrollView,  Image,  StyleSheet,  Pressable,} from 'react-native';
 import { styles } from '../Style/Style1';
 import React, { useEffect, useState } from 'react';
-import CrosswordGrid from "../CrosswordGrid2";
+import CrosswordGrid from "../components/CrosswordGrid2";
 
 export const CrosswordScreen = ({ route, navigation }) => {
   const { era } = route.params;

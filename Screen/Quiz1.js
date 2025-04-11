@@ -1,26 +1,13 @@
 //Quiz1.js
-import React, { useState } from 'react';
-import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
+import { useState } from 'react';
+import { View, Text, TextInput,  Button, ScrollView,  Image,  StyleSheet,  Pressable, TouchableOpacity} from 'react-native';
+import { styles } from '../Style/Style1';
 
-const quizData = [
-  {
-    question: 'What is A?',
-    options: ['A', 'B', 'C', 'D'],
-    correctAnswer: 'A',
-  },
-  {
-    question: 'What is B?',
-    options: ['A', 'B', 'C', 'D'],
-    correctAnswer: 'B',
-  },
-  {
-    question: 'What is C?',
-    options: ['A', 'B', 'C', 'D'],
-    correctAnswer: 'C',
-  },
-];
+export const QuizScreen = ({ route, navigation }) => {
 
-const Quiz = () => {
+  const { era } = route.params;
+  const quizData = era.questions;
+
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [score, setScore] = useState(0);
@@ -56,7 +43,10 @@ const Quiz = () => {
     <View style={styles.container}>
       {!quizFinished ? (
         <View>
-          <Text style={styles.questionText}>{currentQuestion.question}</Text>
+          <Pressable onPress={() => navigation.goBack()} style={styles.backButton}>
+            <Text style={styles.backButtonText}>Back</Text>
+          </Pressable>
+          <Text style={styles.quizText2}>{currentQuestion.question}</Text>
           {currentQuestion.options.map((option, index) => (
             <TouchableOpacity
               key={index}
@@ -67,11 +57,11 @@ const Quiz = () => {
               onPress={() => handleAnswerSelection(option)}
               disabled={selectedAnswer !== null}
             >
-              <Text style={styles.optionText}>{option}</Text>
+              <Text style={styles.optionButtonText}>{option}</Text>
             </TouchableOpacity>
           ))}
           <TouchableOpacity
-            style={styles.nextButton}
+            style={styles.backButton}
             onPress={handleNextQuestion}
             disabled={selectedAnswer === null}
           >
@@ -82,7 +72,7 @@ const Quiz = () => {
         </View>
       ) : (
         <View style={styles.resultContainer}>
-          <Text style={styles.resultText}>Your Score: {score} / {quizData.length}</Text>
+          <Text style={styles.quizText2}>Your Score: {score} / {quizData.length}</Text>
           <TouchableOpacity style={styles.resetButton} onPress={handleResetQuiz}>
             <Text style={styles.resetButtonText}>Reset Quiz</Text>
           </TouchableOpacity>
@@ -92,8 +82,4 @@ const Quiz = () => {
   );
 };
 
-const styles = StyleSheet.create({
-  // styles as before...
-});
-
-export default Quiz;
+export default QuizScreen;
