@@ -11,7 +11,7 @@ export const DetailsScreen = ({ route, navigation }) => {
   const { era } = route.params;
 
   return (
-    <ScrollView style={styles.detailsContainer}>
+    <ScrollView style={styles.detailsContainer} showsVerticalScrollIndicator={false}>
       <Pressable onPress={() => navigation.goBack()} style={styles.backButton}>
         <Text style={styles.backButtonText}>Back</Text>
       </Pressable>
