@@ -10,6 +10,10 @@ export const HomeScreen1 = ({ navigation, route }) => {
   const handleSignOut = () => {
     navigation.replace('SignIn');
   };
+  const handleProfile = () => {
+    navigation.replace('Profile', { username });
+  };
+
 
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -26,13 +30,20 @@ export const HomeScreen1 = ({ navigation, route }) => {
       .finally(() => setLoading(false));
   }, []);
 
+
   return (
     <ScrollView style={styles.detailsContainer}>
-      <View style={styles.signOutButtonContainer}>
-        <Pressable style={styles.signOutButton} onPress={handleSignOut}>
+          <section style={{ display: 'flex', justifyContent: 'center' }}><div>
+      <View style={styles.profileButtonContainer}>
+        <Pressable style={styles.signOutButton} onPress={handleProfile}>
+          <Text style={styles.signOutButtonText}>Profile</Text>
+        </Pressable>
+        </View></div><div>
+           <View style={styles.signOutButtonContainer}>
+                <Pressable style={styles.signOutButton} onPress={handleSignOut}>
           <Text style={styles.signOutButtonText}>Sign Out</Text>
         </Pressable>
-      </View>
+      </View></div></section>
       <Text style={styles.welcomeMessage}>Hello, {username}!</Text>
       <Text style={styles.historyTitle}>History Timeline</Text>
       {data.map((era, index) => (
