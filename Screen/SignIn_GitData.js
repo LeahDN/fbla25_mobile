@@ -2,14 +2,16 @@ import React, { useState } from "react";
 import { View, Text, TextInput, Pressable, StyleSheet } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import { styles } from '../Style/Style1';
 
 const Stack = createNativeStackNavigator();
 
 // Replace with your GitHub personal access token and repository details
-const GITHUB_TOKEN = "GITHUB_Token (Have it in expo-file named SignUp, must be the general token not the more direct can be made whenever easily token)";
+const GITHUB_TOKEN = "My Fabulous Token";
 const REPO_OWNER = "LeahDN";
 const REPO_NAME = "fbla25_mobile";
-const FILE_PATH = "fbla_mobile/json/User_Data.json"; // File to store user data
+const FILE_PATH = "json/User_Data.json"; // File to store user data
+
 
 const fetchUsersFromGitHub = async () => {
   try {
@@ -77,13 +79,13 @@ const saveUsersToGitHub = async (users) => {
   }
 };
 
-const SignInScreen = ({ navigation }) => {
+export const SignInScreen = ({ navigation }) => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
-
+  
   const handleSignIn = async () => {
     const users = await fetchUsersFromGitHub();
-    if (users[username] && users[username] === password) {
+    if (users[username] && users[username].password === password) {
       navigation.replace("Home", { username });
     } else {
       alert("Invalid username or password");
@@ -119,17 +121,16 @@ const SignInScreen = ({ navigation }) => {
   );
 };
 
-const SignUpScreen = ({ navigation }) => {
+export const SignUpScreen = ({ navigation }) => {
   const [newUsername, setNewUsername] = useState("");
   const [newPassword, setNewPassword] = useState("");
-
   const handleSignUp = async () => {
     if (newUsername && newPassword) {
       const users = await fetchUsersFromGitHub();
       if (users[newUsername]) {
         alert("Username already exists");
       } else {
-        users[newUsername] = newPassword;
+        users[newUsername] = { password: newPassword, score: 0};
         await saveUsersToGitHub(users);
         alert("Account created successfully!");
         navigation.goBack();
@@ -141,6 +142,8 @@ const SignUpScreen = ({ navigation }) => {
 
   return (
     <View style={styles.container}>
+      
+      
       <Text style={styles.centeredTitle}>Sign Up</Text>
       <TextInput
         style={styles.input}
@@ -158,10 +161,13 @@ const SignUpScreen = ({ navigation }) => {
       <Pressable style={styles.signInButton} onPress={handleSignUp}>
         <Text style={styles.signInButtonText}>Create Account</Text>
       </Pressable>
+      <Pressable style={styles.backButton} onPress={() => navigation.goBack()}>
+        <Text style={styles.backButtonText}>Back</Text>
+      </Pressable>
     </View>
   );
 };
-
+/*
 const HomeScreen = ({ navigation, route }) => {
   const { username = "Guest" } = route.params || {};
 
@@ -260,7 +266,14 @@ const styles = StyleSheet.create({
     color: "white",
     fontWeight: "bold",
   },
+  backButton: {
+    marginTop: 10,
+    marginBottom: 16,
+    padding: 0,
+    borderRadius: 5,
+    alignSelf: "Center",
+  },
 });
-
-export default App;
+*/
+//export default App;
 
