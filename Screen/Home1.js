@@ -1,21 +1,31 @@
 //Home1.js
 
-import { View, Text, TextInput,  Button, ScrollView,  Image,  StyleSheet,  Pressable,} from 'react-native';
-import { styles } from '../Style/Style1';
-import { useEffect, useState } from 'react';
+import {
+  View,
+  Text,
+  TextInput,
+  Button,
+  ScrollView,
+  Image,
+  StyleSheet,
+  Pressable,
+} from "react-native";
+import { styles } from "../Style/Style1";
+import { useEffect, useState } from "react";
 
 export const HomeScreen1 = ({ navigation, route }) => {
   const { username } = route.params;
 
   const handleSignOut = () => {
-    navigation.replace('SignIn');
+    navigation.replace("SignIn");
   };
 
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
 
   // API URL
-  const url ='https://raw.githubusercontent.com/LeahDN/fbla25_mobile/refs/heads/main/json/ancient_civilizations.json';
+  const url =
+    "https://raw.githubusercontent.com/LeahDN/fbla25_mobile/refs/heads/main/json/ancient_civilizations.json";
 
   // Fetch data from the API
   useEffect(() => {
@@ -27,7 +37,10 @@ export const HomeScreen1 = ({ navigation, route }) => {
   }, []);
 
   return (
-    <ScrollView style={styles.detailsContainer}>
+    <ScrollView
+      style={styles.detailsContainer}
+      showsVerticalScrollIndicator={false}
+    >
       <View style={styles.signOutButtonContainer}>
         <Pressable style={styles.signOutButton} onPress={handleSignOut}>
           <Text style={styles.signOutButtonText}>Sign Out</Text>
@@ -40,7 +53,8 @@ export const HomeScreen1 = ({ navigation, route }) => {
           <Image source={{ uri: era.cool_pic }} style={styles.image} />
           <Pressable
             style={styles.erabutton}
-            onPress={() => navigation.navigate('Details', { era })}>
+            onPress={() => navigation.navigate("Details", { era })}
+          >
             <Text style={styles.erabuttontext} title={era.name}>
               {era.name}
             </Text>
