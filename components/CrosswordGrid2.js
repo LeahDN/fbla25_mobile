@@ -147,11 +147,11 @@ const CrosswordGrid = ({ crosswordData }) => {
       {renderQuestions()}
       {renderGrid()}
       <View style={styles.buttonContainer}>
-        <Button color={'#228B22'} title="Verify" onPress={handleVerify} style={styles.button} />
+        <Button color={'#79B4A9'} title="Verify" onPress={handleVerify} style={styles.button} />
         <View style={styles.gap} />
-        <Button color={'#228B22'} title="Reset" onPress={handleReset} style={styles.button} />
+        <Button color={'#79B4A9'} title="Reset" onPress={handleReset} style={styles.button} />
         <View style={styles.gap} />
-        <Button color={'#228B22'} title="Solve" onPress={handleSolve} style={styles.button} />
+        <Button color={'#79B4A9'} title="Solve" onPress={handleSolve} style={styles.button} />
       </View>
     </View>
   );
