@@ -8,7 +8,7 @@ import { DetailsScreen } from "./Screen/Info1.js";
 import { SignInScreen, SignUpScreen } from "./Screen/SignIn_GitData.js";
 import { CrosswordScreen } from "./Screen/Crossword1";
 import { QuizScreen } from "./Screen/Quiz1";
-
+import {Profile} from "./Screen/Profile";
 const Stack = createNativeStackNavigator();
 
 const App = () => {
@@ -43,6 +43,11 @@ const App = () => {
         <Stack.Screen
           name="Quiz"
           component={QuizScreen}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name="Profile"
+          component={Profile}
           options={{ headerShown: false }}
         />
       </Stack.Navigator>
