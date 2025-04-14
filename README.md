@@ -1,6 +1,12 @@
-# FBLA Mobile app
+## A.C.E
+# Ancient Civilizations Eras 
+FBLA Mobile App Dev 2025
 
-will add documention here
+This project was done for FBLA by Reilly Hawkins & Leah Niebuhr. It was designed to encoarage students grades 4th-8th to learning more about the ancient world. It has a interactive crossword puzzel and quiz as well a scoreing features to keep track of progress. Currently we have 5 ciziliztion to learn about but we hope to add more in the future! We used React Native as a Framework as well as expo.
 
-![Untitled - April 8, 2025 07 37 34 (1)](https://github.com/user-attachments/assets/215e6985-6a4e-4b9a-8918-f1d1ab3c12a0)
-![image](https://github.com/user-attachments/assets/006e4a7b-7f6e-4d15-8514-e46436c7bef2)
+Documentation:
+https://docs.github.com/en/rest?apiVersion=2022-11-28
+https://expo.dev/accounts/leahdn
+https://www.history.com/articles/first-earliest-human-civilizations
+https://www.britannica.com/topic/list-of-ancient-civilizations-2079395
+
