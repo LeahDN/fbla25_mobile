@@ -167,6 +167,7 @@ export const SignUpScreen = ({ navigation }) => {
     </View>
   );
 };
+
 /*
 const HomeScreen = ({ navigation, route }) => {
   const { username = "Guest" } = route.params || {};
