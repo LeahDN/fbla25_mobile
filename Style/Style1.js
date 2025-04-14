@@ -7,6 +7,7 @@ import {
   Image,
   StyleSheet,
   Pressable,
+  borderRadius
 } from "react-native";
 
 export const styles = StyleSheet.create({
@@ -14,12 +15,12 @@ export const styles = StyleSheet.create({
     flex: 1,
     padding: 16,
     paddingTop: 50,
-    backgroundColor: "#f0f0f0",
+    backgroundColor: "#f9f5ff",
   },
   detailsContainer: {
     flex: 1,
     padding: 16,
-    backgroundColor: "#f0f0f0",
+    backgroundColor: "#f9f5ff",
   },
   centeredTitle: {
     fontSize: 30,
@@ -27,6 +28,7 @@ export const styles = StyleSheet.create({
     marginBottom: 16,
     fontFamily: "Verdana",
     textAlign: "center", // Center the title
+    color: "#79b4a9",
   },
   historyTitle: {
     fontSize: 30,
@@ -55,18 +57,24 @@ export const styles = StyleSheet.create({
   timelineItem: {
     marginBottom: 5,
     //backgroundColor:"dodgerblue",
+    alignItems: "center",
   },
   image: {
-    width: "100%",
+    alignItems: "center",
+    width: "50%",
     height: 150,
     marginBottom: 7.5,
-  },
+    borderTopRightRadius: 2500,
+    borderTopLeftRadius: 2500,
+    borderBottomLeftRadius: 2500,
+    borderBottomRightRadius: 2500,
+    },
   signOutButtonContainer: {
     alignSelf: "flex-end",
     marginTop: 20,
     marginBottom: 8,
     padding: 10,
-    backgroundColor: "dodgerblue",
+    backgroundColor: "#79b4a9",
     borderRadius: 5,
     right: 10,
     bottom: 0,
@@ -97,15 +105,15 @@ export const styles = StyleSheet.create({
     marginTop: 20,
     marginBottom: 16,
     padding: 10,
-    backgroundColor: "dodgerblue",
+    backgroundColor: "#79B4A9",
     borderRadius: 5,
     alignSelf: "flex-start",
   },
   backButton2: {
     marginTop: 0,
-    marginBottom: 16,
+    marginBottom: 0,
     padding: 10,
-    backgroundColor: "dodgerblue",
+    backgroundColor: "#79B4A9",
     borderRadius: 5,
     alignSelf: "flex-start",
   },
@@ -115,7 +123,7 @@ export const styles = StyleSheet.create({
     fontFamily: "Verdana",
   },
   signInButton: {
-    backgroundColor: "dodgerblue", // Blue background
+    backgroundColor: "#79B4A9", // Blue background
     padding: 10,
     borderRadius: 5,
     alignItems: "center",
@@ -124,19 +132,21 @@ export const styles = StyleSheet.create({
     color: "white", // White text
     fontWeight: "bold",
     fontFamily: "Verdana",
+    textAlign: "center",
   },
   erabutton: {
     flex: 1,
-    backgroundColor: "dodgerblue",
+    backgroundColor: "#79b4a9",
     borderRadius: 5,
     padding: 10,
     marginTop: 0,
     alignItems: "center",
     marginBottom: 2.5,
+    width: 150,
   },
   nextbutton: {
     flex: 1,
-    backgroundColor: "dodgerblue",
+    backgroundColor: "#79B4A9",
     borderRadius: 5,
     padding: 10,
     marginTop: 0,
@@ -151,7 +161,7 @@ export const styles = StyleSheet.create({
   signUpButton: {
     marginTop: 10,
     padding: 10,
-    backgroundColor: "gray",
+    backgroundColor: "black",
     borderRadius: 5,
     alignItems: "center",
   },
@@ -169,7 +179,7 @@ export const styles = StyleSheet.create({
   cell: {
     borderWidth: 1,
     margin: 1,
-    borderColor: "dodgerblue",
+    borderColor: "#79B4A9",
     //backgroundColor: "dodgerblue",
     //#228B22 color for all these originally
     width: 30,
@@ -208,7 +218,7 @@ export const styles = StyleSheet.create({
   headingText: {
     fontSize: 18,
     fontWeight: "bold",
-    color: "dodgerblue",
+    color: "#79B4A9",
     textAlign: "center",
   },
   buttonContainer: {
@@ -223,7 +233,10 @@ export const styles = StyleSheet.create({
   gap: {
     width: 10, // Adjust the width as needed for the desired gap
   },
-
+  gap2: {
+    marginTop: 50,
+  },
+  
   //Quiz Stufff
   quizText2: {
     fontSize: 20,
@@ -234,7 +247,7 @@ export const styles = StyleSheet.create({
     fontFamily: "Verdana",
   },
   optionButton: {
-    backgroundColor: "#2196F3",
+    backgroundColor: "#79B4A9",
     padding: 15,
     borderRadius: 5,
     marginBottom: 10,
@@ -274,5 +287,26 @@ export const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: "bold",
     fontFamily: "Verdana",
+  },
+
+  //Bottom Nav Bar
+  navBar: {
+    flexDirection: "row",
+    justifyContent: "space-around",
+    alignItems: "center",
+    backgroundColor: "#79b4a9",
+    padding: 20,
+    position: "absolute",
+    bottom: 0,
+    width: "100%",
+  },
+  navButton: {
+    flex: 1,
+    alignItems: "center",
+  },
+  navButtonText: {
+    color: "white",
+    fontWeight: "bold",
+    fontSize: 16,
   },
 });
