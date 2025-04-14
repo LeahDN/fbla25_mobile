@@ -123,4 +123,4 @@ export const QuizScreen = ({ route, navigation }) => {
   );
 };
 
-export default QuizScreen;
+//export default QuizScreen;
